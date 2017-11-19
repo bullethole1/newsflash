@@ -1,0 +1,71 @@
+
+<div class="form-group row">
+  <label class="col-2 col-form-label">Image</label>
+  <div class="col-10">
+    <input class="form-control" type="text" value="" [(ngModel)]="article.img">
+  </div>
+</div>
+
+<div class="form-group row">
+  <label class="col-2 col-form-label">Headline</label>
+  <div class="col-10">
+    <input class="form-control" type="text" value="" [(ngModel)]="article.header">
+  </div>
+</div>
+
+<div class="form-group row">
+  <label class="col-2 col-form-label">Summary</label>
+  <div class="col-10">
+    <input class="form-control" type="text" value="" [(ngModel)]="article.summary">
+  </div>
+</div>
+
+<div class="form-group row">
+  <label class="col-2 col-form-label">Body</label>
+  <div class="col-10">
+    <div class="myeditablediv">
+      <input class="form-control" type="text" value="" [(ngModel)]="article.body">
+    </div>
+  </div>
+</div>
+
+<div class="form-group row">
+  <label class="col-2 col-form-label">Article link</label>
+  <div class="col-10">
+    <input class="form-control" type="url" value="" [(ngModel)]="article.link">
+  </div>
+</div>
+
+<div class="form-group row">
+  <label class="col-2 col-form-label">Source</label>
+  <div class="col-10">
+    <div class="myeditablediv">
+      <input class="form-control" type="text" value="" [(ngModel)]="article.source">
+    </div>
+  </div>
+</div>
+
+<div class="form-group row">
+  <label class="col-2 col-form-label">Add Tags</label>
+  <div class="col-10">
+    <div class="myeditablediv">
+      <rl-tag-input [(ngModel)]="article.tags" placeholder="Tag"></rl-tag-input>
+    </div>
+  </div>
+</div>
+
+<div class="form-group row">
+  <label>Add Publication Date</label>
+  <input type="checkbox" [(ngModel)]="article.publishdate" (ngModelChange)="setDate(date)">
+  <div class="checkbox">
+    <input class="form-control" type="text" value="" [(ngModel)]="article.publishdate">
+  </div>
+</div>
+
+
+<div class="form-group row">
+  <div class="col-12">
+    <a routerLink="/home" class="btn btn-primary pull-right" (click)="cancelArticle()">Cancel</a>
+    <button class="btn btn-success pull-right" (click)="saveArticle(article)">Save</button>
+  </div>
+</div>

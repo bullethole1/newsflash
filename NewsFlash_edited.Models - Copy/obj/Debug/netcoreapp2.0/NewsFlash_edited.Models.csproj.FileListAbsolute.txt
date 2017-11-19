@@ -1,0 +1,9 @@
+C:\Users\johan\source\repos\NewsFlash_edited.Models\bin\Debug\netcoreapp2.0\NewsFlash_edited.Models.deps.json
+C:\Users\johan\source\repos\NewsFlash_edited.Models\bin\Debug\netcoreapp2.0\NewsFlash_edited.Models.dll
+C:\Users\johan\source\repos\NewsFlash_edited.Models\bin\Debug\netcoreapp2.0\NewsFlash_edited.Models.pdb
+C:\Users\johan\source\repos\NewsFlash_edited.Models\obj\Debug\netcoreapp2.0\NewsFlash_edited.Models.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\NewsFlash_edited.Models\obj\Debug\netcoreapp2.0\NewsFlash_edited.Models.AssemblyInfoInputs.cache
+C:\Users\johan\source\repos\NewsFlash_edited.Models\obj\Debug\netcoreapp2.0\NewsFlash_edited.Models.AssemblyInfo.cs
+C:\Users\johan\source\repos\NewsFlash_edited.Models\obj\Debug\netcoreapp2.0\NewsFlash_edited.Models.dll
+C:\Users\johan\source\repos\NewsFlash_edited.Models\obj\Debug\netcoreapp2.0\NewsFlash_edited.Models.pdb
+C:\Users\johan\source\repos\NewsFlash_edited.Models\obj\Debug\netcoreapp2.0\NewsFlash_edited.Models.csprojResolveAssemblyReference.cache

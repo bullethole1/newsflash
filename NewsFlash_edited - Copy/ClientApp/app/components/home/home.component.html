@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+  <table class="table table-hover">
+    <tbody>
+      <tr *ngFor="let article of articles">
+        <td class="text-left">
+          {{article.header}}
+        </td>
+        <td class="text-right text-nowrap" style="width:80px;">
+          <a [routerLink]="['/edit', article.id]" class="btn btn-block btn-info">Edit</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
